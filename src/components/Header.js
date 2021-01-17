@@ -19,7 +19,7 @@ const useStyles = makeStyles((theme) => ({
   },
   back: {
     borderBottom: 2,
-    backgroundColor: "white", 
+    backgroundColor: "white",
     borderBottomStyle: "solid",
     borderBottomColor: "black",
     paddingTop: 10,
@@ -36,7 +36,6 @@ export default function Header() {
           <Typography variant="h6" className={classes.title}>
             CAR UNIVERSE 
           </Typography>
-          <Button color="inherit">Login</Button>
         </Toolbar>
       </AppBar>
     </div>
